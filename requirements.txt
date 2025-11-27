@@ -1,0 +1,4 @@
+requests>=2.31.0
+websocket-client>=1.6.0
+# pygame>=2.0.0  # 可选：用于音频播放（macOS需要先安装SDL: brew install sdl2）
+

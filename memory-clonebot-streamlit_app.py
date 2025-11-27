@@ -13,7 +13,7 @@ if not API_KEY:
         API_KEY = st.secrets["ZHIPU_API_KEY"]
     except:
         #在此处填入你的Key作为最后的备选，但强烈建议使用 secrets.toml
-        API_KEY = "你的智谱API密钥" 
+        API_KEY = "6d990e86b2e4434c9b120cd073ac8e45.X2Z3loSRC0UrZ1yH" 
 
 def call_zhipu_api(messages, model="glm-4-flash"):
     url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
